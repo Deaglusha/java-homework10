@@ -11,9 +11,8 @@ public class Exercise1 {
     private static final String ABSOLUTE_FILE =
             "C:\\Users\\deagl\\IdeaProject\\java-homework10\\resources\\file.txt";
 
-    public static void readFile() {
+    public void readAndOutputFile() {
         File file = new File(ABSOLUTE_FILE);
-
         if (!file.exists()) {
             throw new RuntimeException("Файл " + file.getName() + " не существует!");
         }
@@ -31,7 +30,7 @@ public class Exercise1 {
                 line = bufferedReader.readLine();
             }
         } catch (IOException e) {
-            System.err.println("Нельзя записать в закрытый файл!");
+            System.err.println("Нельзя записать в открытый файл " + file.getName() + "!");
         }
     }
 }
