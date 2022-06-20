@@ -16,9 +16,9 @@ import java.nio.file.Paths;
 
 public class Exercise2 {
     private static final String FILE =
-            "C:\\Users\\deagl\\IdeaProject\\java-homework10\\resources\\file2.txt";
+            ".\\src\\main\\resources\\file2.txt";
     private static final String RESULT_FILE =
-            "C:\\Users\\deagl\\IdeaProject\\java-homework10\\resources\\file2.json";
+            ".\\src\\main\\resources\\file2.json";
 
 
     public void readAndCreateFile() {

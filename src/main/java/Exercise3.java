@@ -18,7 +18,7 @@ import java.util.stream.Stream;
 
 public class Exercise3 {
     private static final String ABSOLUTE_FILE =
-            "C:\\Users\\deagl\\IdeaProject\\java-homework10\\resources\\words.txt";
+            ".\\src\\main\\resources\\words.txt";
 
     public void countWordsFile() {
         File file = new File(ABSOLUTE_FILE);
