@@ -9,7 +9,7 @@ import java.io.*;
 
 public class Exercise1 {
     private static final String ABSOLUTE_FILE =
-            "C:\\Users\\deagl\\IdeaProject\\java-homework10\\recources\\file.txt";
+            "C:\\Users\\deagl\\IdeaProject\\java-homework10\\resources\\file.txt";
 
     public static void readFile() {
         File file = new File(ABSOLUTE_FILE);
